@@ -44,3 +44,24 @@
 // alert('2をかけ続けて' + max + 'を超えるのに必要だった回数は' + count + "回です");
 
 
+// 関数
+// function 関数名(){
+//   処理内容
+// }
+// メイン部分
+// let alertString;
+// alertString = addString("WebCamp");
+
+// 作成した関数を呼び出す
+// alert(alertString);
+
+// 作成した関数
+// function addString(strA){
+//   let addStr = "Hello " + strA;
+//   return addStr;
+// }
+
+// prompt =入力ダイアログを表示し、ユーザーに入力を促すことができる
+let promptStr = prompt('何か好きな文字を入力してください')
+
+alert(promptStr);
