@@ -1,6 +1,7 @@
 # hello = "Hello, World"
 # puts hello
 
+# トリボナッチ数列
 puts "求めたい数字を入力してください"
 puts "1つ目の数字"
 a = gets.to_i
