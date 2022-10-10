@@ -37,12 +37,43 @@
 // console.log(nickname)
 
 // -----------スコープ---------------
-var str = "webcamp" //グローバルスコープ
+// var str = "webcamp" //グローバルスコープ
 
-function foo() {
-    console.log(str)
-    var y = "hello" //関数スコープ
-}
+// function foo() {
+//   console.log(str)
+//   var y = "hello" //関数スコープ
+// }
 
-foo()
-console.log(y)
+// foo()
+// console.log(y)
+
+
+// function foo() {
+//     let x = "webcamp"
+//     {
+//         let y = "hello webcamp"
+//     }
+//     console.log(x)
+//     console.log(y)
+// }
+
+// foo()
+
+// for (let i = 0; i < 10; i++) {
+//     console.log(i)
+// }
+
+// console.log(i)
+
+// --------------巻き上げ---------------
+
+// ver str = "webcamp"
+
+// function foo() {
+//     var str
+//     console.log(str)
+//     str = "dmm webcamp"
+//     console.log(str)
+// }
+
+// foo()
