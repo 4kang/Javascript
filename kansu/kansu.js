@@ -90,13 +90,19 @@
 
 
 // ------------このプログラムでは、「1」を基準に「2」を掛け続けた場合、何回で「100」を超えるかを測定しています。-------
-let max = 100;
-let num = 1;
-let count = 0;
+// let max = 100;
+// let num = 1;
+// let count = 0;
 
-while(num < max){
-  num = num * 2;
-  count = count + 1;
-}
+// while(num < max){
+//   num = num * 2;
+//   count = count + 1;
+// }
 
-alert('2を掛け続けて'+ max + 'を超えるのに必要だった回数は' + count + '回です');
+// alert('2を掛け続けて'+ max + 'を超えるのに必要だった回数は' + count + '回です');
+
+$(function(){
+  $('.box1').mouseover(function(){
+    $('.box1').css({'background-color': '#0000FF'});
+  });
+});
