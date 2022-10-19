@@ -101,8 +101,12 @@
 
 // alert('2を掛け続けて'+ max + 'を超えるのに必要だった回数は' + count + '回です');
 
-$(function(){
-  $('.box1').mouseover(function(){
-    $('.box1').css({'background-color': '#0000FF'});
-  });
-});
+let alertString;
+alertString = addString("WebCamp");
+
+alert(alertString);
+
+function addString(srtA){
+  let addStr = "Hello " + srtA
+  return addStr;
+}
