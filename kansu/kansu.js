@@ -101,12 +101,19 @@
 
 // alert('2を掛け続けて'+ max + 'を超えるのに必要だった回数は' + count + '回です');
 
-let alertString;
-alertString = addString("WebCamp");
+// let alertString;
+// alertString = addString("WebCamp");
 
-alert(alertString);
+// alert(alertString);
 
-function addString(srtA){
-  let addStr = "Hello " + srtA
-  return addStr;
-}
+// function addString(srtA){
+//   let addStr = "Hello " + srtA
+//   return addStr;
+// }
+
+// let promptStr = prompt('何か好きな文字を入力してください');
+// alert(promptStr);
+
+let user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください');
+
+alert('あなたの選んだ手は' + user_hand + 'です');
