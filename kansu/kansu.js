@@ -114,6 +114,15 @@
 // let promptStr = prompt('何か好きな文字を入力してください');
 // alert(promptStr);
 
-let user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください');
+// let user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください');
 
-alert('あなたの選んだ手は' + user_hand + 'です');
+// alert('あなたの選んだ手は' + user_hand + 'です');
+
+// console.log(5 + 3);
+
+// マウスオーバー
+(function(){
+  ('.box1').mouseover(function(){
+    ('.box1').css({'background-color': '#0000FF'});
+  });
+});
