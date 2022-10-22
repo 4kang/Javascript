@@ -1,4 +1,4 @@
 /* global $*/
 $(function(){
-  $('.box1').slideUp();
+  $('.box1').hide();
 });
