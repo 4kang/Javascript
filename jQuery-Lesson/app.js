@@ -34,11 +34,27 @@
 
 
 // .box1がクリックされたときは、box1-extのclassを追加する。マウスアウトされたときは、box1-extのclassを削除する
+// $(function(){
+//   $('.box1').on('click',function(){
+//     $('.box1').addClass('box1-ext');
+//   });
+//   $('.box1').mouseout(function(){
+//     $('.box1').removeClass('box1-ext');
+//   });
+// });
+
+
 $(function(){
-  $('.box1').on('click',function(){
-    $('.box1').addClass('box1-ext');
+  $('.bg1').on('click',function(){
+    $('.bg1').slideUp();
   });
-  $('.box1').mouseout(function(){
-    $('.box1').removeClass('box1-ext');
+  $('.bg2').on('click',function(){
+    $('.bg2').slideUp();
+  });
+  $('.bg3').on('click',function(){
+    $('.bg3').slideUp();
+  });
+  $('.bg4').on('click',function(){
+    $('.bg4').slideUp();
   });
 });
