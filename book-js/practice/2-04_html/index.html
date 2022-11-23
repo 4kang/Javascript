@@ -18,7 +18,7 @@
 <main>
 <div class="container">
 <section>
-
+ <p id="choice">ここに日時を表示します</p>
 </section>
 </div><!-- /.container -->
 </main>
@@ -27,11 +27,11 @@
 <p>JavaScript Samples</p>
 </div><!-- /.container -->
 </footer>
-<script src="script.js"></script>
 <script>
-  'use strict';  //絶対書いて
-  alert('アプリ連携が完了しました。');
-  alert(19 + 18);
+  'use strict';
+  // <p id="choice"></p>のtextContentをnew Date()にする
+  document.getElementById('choice').textContent = new Date();
+  console.log(document.getElementById('choice').textContent);
 </script>
 </body>
 </html>
