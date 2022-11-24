@@ -29,10 +29,15 @@
 </footer>
 <script>
   'use strict';
-
-  let answer = prompt('ヘルプを見ますか？');
-  console.log(answer);
-
+  
+  const answer = prompt('ヘルプを見ますか？');
+  if(answer === 'yes') {
+    alert('タップでジャンプ、障害物をよけます');
+  }else if(answer === 'no'){
+    alert('ゲーム起動中…');
+  }else{
+    alert('yesかnoでお答えください');
+  }
 </script>
 </body>
 </html>
